@@ -46,8 +46,8 @@ history_r = 1300;
 history_a = 1300;
 Parameter_Vec = [alpha_r; alpha_a; gamma_r; gamma_a; f; Ca; Cr_T; N; beta; Ro; A_T];
 
-%% collecting timeperiod data as function of gamma_a by solving the dde multiple times using the dde3 function
-%please keep num iterations equal to the sze of the array range_gamma_a
+%% collecting timeperiod data as function of Ro by solving the dde multiple times using the dde3 function
+%please keep num iterations equal to the sze of the array range_Ro
 num_iter = 181;
 avgperiod_laci = zeros(1,num_iter);
 avgperiod_arac = zeros(1,num_iter);
